@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name            = 'faker_dnd'
-  s.version         = '0.0.0'
+  s.version         = '0.0.1'
   s.date            = '2013-11-14'
   s.summary         = "Randomly generate DnD themed things!"
   s.description     ="A simple faker DnD gem"

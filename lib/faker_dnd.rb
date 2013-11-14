@@ -14,4 +14,13 @@ module Faker
       ['human', 'elf', 'dwarf', 'gnome', 'half-elf', 'half-orc', 'halfing'].sample
     end
   end
+
+  class Character
+    def self.generate
+      classes = Faker::DnD.class
+      alignment = Faker::DnD.alignment
+      race = Faker::DnD.race
+      alignment + ' ' + race + ' ' + classes
+    end
+  end
 end
