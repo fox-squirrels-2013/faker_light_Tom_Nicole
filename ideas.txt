@@ -1,0 +1,5 @@
+Faker::Pirate   name, battlecry, ship
+Faker::zen  koan, monk, ninja_name
+Faker::Aussie name, phrase, insult
+Faker::Music band_name, genre, lyrics
+Faker::DnD monster, alignment, magic_item, player_class
